@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+    font-size: larger;
+}
+
+.x {
+    border: 2px solid red;
+}
+
+section {
+    margin: 25px;
+}
+
+.title {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar {
+    background-color: #D988B9;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile {
+    padding: 2rem;
+    background-color: #D988B9;
+    border-radius: 15px;
+    padding-left: 5rem;
+}
+
+.profile img {
+    width: 40vw;
+    border-radius: 30px;
+}
+
+.profile {
+    display: flex;
+    color: #FFE4D6;
+}
+
+.desc .isi ul {
+    padding-left: 2rem;
+}
+
+.isi {
+    margin: 2rem;
+}
+
